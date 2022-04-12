@@ -1,0 +1,73 @@
+.container_header{
+    height: 5%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.container-footer{
+    height: 10%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentment {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px; /* скругляем края блока*/
+    height: 80%;
+    width: 90%;
+    border: 1px solid #d9d9d9; /* рамка блока*/
+    overflow: hidden; /* скрывает возможность появления прокрутки блока. */
+
+}
+
+.contentment img {
+    width: 220px; /* ширина картинки 140 */
+    height: 220px; /* высота картинки, от неё будет зависеть и размер общего блока */
+    object-fit: cover; /* обрезаем края картинки, если они не вместятся в блок */
+
+    margin-right: 10px;
+    float: left; /* важный момент. с помощью этого значения, мы показываем браузеру, что блок должен соприкасаться со вторым блоком преимущественно с левой стороны */
+}
+
+.left-sidebar-footer{
+    float: left;
+    width: 10%;
+}
+
+footer ul li{
+
+    float: right;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+header h1{
+    text-align: center;
+}
+
+h2{
+    font-weight: bolder;
+}
+.contentment .content{
+    float: left;
+    width:70%;
+    font-size: 18px;
+}
+
+.contentment p{
+    overflow-wrap: normal; /* показывает тексту, что он не должен заходить за границы блока */
+    word-wrap: normal;
+    word-break: normal; /* не поддерживает Opera12.14, значение keep-all не поддерживается IE, Chrome */
+    line-break: auto; /* нет поддержки для русского языка */
+    -webkit-hyphens: none; -ms-hyphens: none; hyphens: none; /* значение auto не поддерживается Chrome */
+    padding: 10px; /* отступ от рамки до текста - делает его красивее */
+    display: block; /* обозначает, что это не просто бесформенный текст, а блок внутри блока */
+    /* размер текста*/
+    margin: 2px 0 0 0; /* отступ от блока с текстом */
+    font-size: 18px;
+}
+
+
+
