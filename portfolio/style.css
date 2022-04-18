@@ -15,13 +15,20 @@
     margin-left: auto;
     margin-right: auto;
     border-radius:5px; /* скругляем края блока*/
-    height: 80%;
+    height: 85%;
     width: 90%;
     border: 1px solid #d9d9d9; /* рамка блока*/
     overflow: hidden; /* скрывает возможность появления прокрутки блока. */
 
 }
 
+.name-project{
+    text-align: center;
+}
+
+label{
+    margin-left: 10px;
+}
 .contentment img {
     width: 220px; /* ширина картинки 140 */
     height: 220px; /* высота картинки, от неё будет зависеть и размер общего блока */
@@ -41,10 +48,6 @@ footer ul li{
     float: right;
     display: inline-block;
     padding-left: 10px;
-}
-
-header h1{
-    text-align: center;
 }
 
 h2{
