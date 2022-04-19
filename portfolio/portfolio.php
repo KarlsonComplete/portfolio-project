@@ -111,7 +111,6 @@ data: ()=>({
                         }
                     },
                 }).then((r)=>{
-                    console.log(r)
                     this.state = r.status;
                     setTimeout(()=>{
                         this.state = r.status;
